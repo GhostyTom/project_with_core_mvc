@@ -1,0 +1,17 @@
+{
+    "name": "thomas/workshop",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+      "ext-pdo": "*"
+    }
+}
