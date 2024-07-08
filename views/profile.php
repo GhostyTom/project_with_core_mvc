@@ -1,5 +1,5 @@
 <?php
-use app\core\View;
+use ghostytom\core\View;
 
 /** @var $this View  */
 $this->title = 'Profile';

@@ -4,8 +4,8 @@
 namespace app\models;
 
 
-use app\core\Application;
-use app\core\Model;
+use ghostytom\core\Application;
+use ghostytom\core\Model;
 
 class LoginForm extends Model
 {

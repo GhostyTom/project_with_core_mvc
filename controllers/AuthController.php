@@ -3,11 +3,11 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\middlewares\AuthMiddleware;
-use app\core\Request;
-use app\core\Response;
+use ghostytom\core\Application;
+use ghostytom\core\Controller;
+use ghostytom\core\middlewares\AuthMiddleware;
+use ghostytom\core\Request;
+use ghostytom\core\Response;
 use app\models\LoginForm;
 use app\models\User;
 

@@ -1,8 +1,8 @@
 <?php
 
-use app\core\form\Form;
+use ghostytom\core\form\Form;
 use app\models\User;
-use app\core\View;
+use ghostytom\core\View;
 
 /** @var $this View */
 $this->title = 'Profile';

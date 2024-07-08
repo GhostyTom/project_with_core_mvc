@@ -3,10 +3,10 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\Request;
-use app\core\Response;
+use ghostytom\core\Application;
+use ghostytom\core\Controller;
+use ghostytom\core\Request;
+use ghostytom\core\Response;
 use app\models\ContactForm;
 
 class SiteController extends Controller

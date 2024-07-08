@@ -4,9 +4,9 @@
 namespace app\models;
 
 
-use app\core\DbModel;
-use app\core\Model;
-use app\core\UserModel;
+use ghostytom\core\DbModel;
+use ghostytom\core\Model;
+use ghostytom\core\UserModel;
 
 class User extends UserModel
 {

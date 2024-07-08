@@ -1,6 +1,7 @@
 <?php
 
-use app\core\Application;
+use app\models\User;
+use ghostytom\core\Application;
 use app\controllers\SiteController;
 use app\controllers\AuthController;
 
@@ -10,7 +11,7 @@ $dotenv->load();
 
 
 $config = [
-    'userClass' => \app\models\User::class,
+    'userClass' => User::class,
     'db' => [
         'dsn' => $_ENV['DB_DSN'],
         'user' => $_ENV['DB_USER'],
@@ -20,7 +21,10 @@ $config = [
 
 $app = new Application(dirname(__DIR__), $config);
 
+$app->on(Application::EVENT_BEFORE_REQUEST,
+    function () {
 
+    });
 
 $app->router->get('/', [SiteController::class, 'home']);
 

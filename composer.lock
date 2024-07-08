@@ -4,8 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1543d8a8fd0fa06be53d1f8a4741e69c",
+    "content-hash": "d41defe785e1398321346e9cd610470a",
     "packages": [
+        {
+            "name": "ghostytom/core",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GhostyTom/mvc_core_framework.git",
+                "reference": "addee8f9f46661e9c6684e5bd4c78338811b9a99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GhostyTom/mvc_core_framework/zipball/addee8f9f46661e9c6684e5bd4c78338811b9a99",
+                "reference": "addee8f9f46661e9c6684e5bd4c78338811b9a99",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ghostytom\\core\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Thomas",
+                    "email": "example@example.de"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/GhostyTom/mvc_core_framework/issues",
+                "source": "https://github.com/GhostyTom/mvc_core_framework/tree/v1.0.4"
+            },
+            "time": "2024-07-08T09:25:40+00:00"
+        },
         {
             "name": "graham-campbell/result-type",
             "version": "v1.1.2",
@@ -473,7 +506,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-pdo": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

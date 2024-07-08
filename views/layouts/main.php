@@ -1,6 +1,6 @@
 
 <?php
-use app\core\Application;
+use ghostytom\core\Application;
 ?>
 
 <!doctype html>

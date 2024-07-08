@@ -1,8 +1,8 @@
 <?php
-use app\core\View;
-use app\core\form\Form;
+use ghostytom\core\View;
+use ghostytom\core\form\Form;
 use app\models\ContactForm;
-use app\core\form\TextareaField;
+use ghostytom\core\form\TextareaField;
 
     /** @var $this View  */
     $this->title = 'Contact';
